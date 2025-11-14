@@ -1,0 +1,599 @@
+{
+  "bleu_score": 13.888095170058955,
+  "bertscore": {
+    "precision": [
+      0.9506756663322449,
+      0.9452218413352966,
+      0.922469973564148,
+      0.9315218925476074,
+      0.9147328734397888,
+      0.9080854654312134,
+      0.8371352553367615,
+      0.9097152948379517,
+      0.9339907169342041,
+      0.8498855233192444,
+      0.9402203559875488,
+      0.9065852165222168,
+      0.9120376110076904,
+      0.9542112946510315,
+      0.9537087678909302,
+      0.9690603017807007,
+      0.9482940435409546,
+      0.9005730152130127,
+      0.9097141623497009,
+      0.7949482798576355,
+      0.9156147241592407,
+      0.8730706572532654,
+      0.9346309900283813,
+      0.9605876207351685,
+      0.9293856620788574,
+      0.9323511719703674,
+      0.814716637134552,
+      0.8582544922828674,
+      0.9312971830368042,
+      0.8447023630142212,
+      0.9335255026817322,
+      0.8464699983596802,
+      0.9505926370620728,
+      0.9169008135795593,
+      0.9465935826301575,
+      0.8467692136764526,
+      0.9169901013374329,
+      0.9267094731330872,
+      0.9268556237220764,
+      0.9497910141944885,
+      0.8705288171768188,
+      0.9343404769897461,
+      0.9055526852607727,
+      0.9164693355560303,
+      0.914061963558197,
+      0.8429407477378845,
+      0.8830950856208801,
+      0.9423830509185791,
+      0.9210108518600464,
+      0.9504804611206055,
+      0.909991979598999,
+      0.9530795216560364,
+      0.8875288963317871,
+      0.909818708896637,
+      0.8711623549461365,
+      0.9181827902793884,
+      0.8904639482498169,
+      0.8748213052749634,
+      0.9015963673591614,
+      0.8932819366455078,
+      0.8848216533660889,
+      0.8684124946594238,
+      0.8749189376831055,
+      0.9240047931671143,
+      0.9137942790985107
+    ],
+    "recall": [
+      0.9224894046783447,
+      0.9465819597244263,
+      0.9339416027069092,
+      0.9315218925476074,
+      0.9147328734397888,
+      0.917930006980896,
+      0.8934584259986877,
+      0.9263492226600647,
+      0.9104960560798645,
+      0.9270988702774048,
+      0.9402203559875488,
+      0.9336841702461243,
+      0.9345215559005737,
+      0.9542112946510315,
+      0.9510582685470581,
+      0.9690603017807007,
+      0.9513591527938843,
+      0.9192768931388855,
+      0.9055671095848083,
+      0.8786579370498657,
+      0.9091395735740662,
+      0.9354596138000488,
+      0.9368466138839722,
+      0.9605876207351685,
+      0.9493004679679871,
+      0.9323511719703674,
+      0.8314424157142639,
+      0.8913278579711914,
+      0.9312971830368042,
+      0.9015522003173828,
+      0.9313498735427856,
+      0.8503146171569824,
+      0.9505926370620728,
+      0.9169008135795593,
+      0.9465935826301575,
+      0.878819465637207,
+      0.9169901013374329,
+      0.9284554123878479,
+      0.9268556237220764,
+      0.9497910141944885,
+      0.8663316369056702,
+      0.9343404769897461,
+      0.9055526852607727,
+      0.9164693355560303,
+      0.9430549144744873,
+      0.8247884511947632,
+      0.9071997404098511,
+      0.9506521224975586,
+      0.943289041519165,
+      0.9504804611206055,
+      0.909991979598999,
+      0.9575168490409851,
+      0.9086737632751465,
+      0.927854061126709,
+      0.9050723314285278,
+      0.9148522615432739,
+      0.9352893233299255,
+      0.9363923668861389,
+      0.8976066708564758,
+      0.911086916923523,
+      0.8848216533660889,
+      0.8684124946594238,
+      0.9027929306030273,
+      0.9142507314682007,
+      0.921410322189331
+    ],
+    "f1": [
+      0.9363704323768616,
+      0.9459014534950256,
+      0.928170382976532,
+      0.9315218925476074,
+      0.914732813835144,
+      0.9129812121391296,
+      0.8643803000450134,
+      0.9179568886756897,
+      0.9220937490463257,
+      0.8868146538734436,
+      0.9402203559875488,
+      0.9199352264404297,
+      0.9231427311897278,
+      0.9542112946510315,
+      0.9523816704750061,
+      0.9690603017807007,
+      0.9498240947723389,
+      0.9098288416862488,
+      0.9076359272003174,
+      0.8347097039222717,
+      0.912365734577179,
+      0.9031890034675598,
+      0.9357374906539917,
+      0.9605876207351685,
+      0.9392374753952026,
+      0.9323511719703674,
+      0.822994589805603,
+      0.8744786381721497,
+      0.9312971830368042,
+      0.8722019195556641,
+      0.932436466217041,
+      0.8483880162239075,
+      0.9505926370620728,
+      0.9169008135795593,
+      0.9465935826301575,
+      0.8624966740608215,
+      0.9169901013374329,
+      0.9275816082954407,
+      0.9268556237220764,
+      0.9497910141944885,
+      0.8684251308441162,
+      0.9343404173851013,
+      0.9055526852607727,
+      0.9164693355560303,
+      0.9283320903778076,
+      0.8337658047676086,
+      0.8949851393699646,
+      0.9464995265007019,
+      0.9320167899131775,
+      0.9504804611206055,
+      0.909991979598999,
+      0.9552930593490601,
+      0.8979768753051758,
+      0.9187479019165039,
+      0.8877937197685242,
+      0.91651451587677,
+      0.9123263955116272,
+      0.9045603275299072,
+      0.8995971083641052,
+      0.9020965695381165,
+      0.8848216533660889,
+      0.8684124946594238,
+      0.888637363910675,
+      0.919101893901825,
+      0.9175865054130554
+    ],
+    "average_f1": 0.9135271906852722
+  },
+  "test_cases": [
+    {
+      "reference": "He was suffering from a feeling of anguish.",
+      "candidate": "He was experiencing a sensation of torment.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9363704323768616
+    },
+    {
+      "reference": "The man looked at her with profound despair.",
+      "candidate": "The man gazed upon her with deep hopelessness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9459014534950256
+    },
+    {
+      "reference": "A terrible misery overwhelmed his soul.",
+      "candidate": "A dreadful wretchedness consumed his spirit.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.928170382976532
+    },
+    {
+      "reference": "He felt an intense sorrow in his heart.",
+      "candidate": "He experienced a profound grief in his chest.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9315218925476074
+    },
+    {
+      "reference": "The room was filled with gloomy silence.",
+      "candidate": "The chamber was occupied by dismal quiet.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.914732813835144
+    },
+    {
+      "reference": "Her eyes expressed infinite compassion.",
+      "candidate": "Her gaze showed boundless sympathy.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9129812121391296
+    },
+    {
+      "reference": "He spoke with bitter resentment.",
+      "candidate": "He talked with acrimonious bitterness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8643803000450134
+    },
+    {
+      "reference": "A strange anxiety possessed him.",
+      "candidate": "An odd uneasiness gripped him.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9179568886756897
+    },
+    {
+      "reference": "She wept with quiet desperation.",
+      "candidate": "She cried with silent despair.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9220937490463257
+    },
+    {
+      "reference": "His face showed utter confusion.",
+      "candidate": "His countenance displayed complete bewilderment.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8868146538734436
+    },
+    {
+      "reference": "The thought filled him with horror.",
+      "candidate": "The idea overwhelmed him with terror.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9402203559875488
+    },
+    {
+      "reference": "He experienced a moment of pure ecstasy.",
+      "candidate": "He felt an instant of absolute rapture.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9199352264404297
+    },
+    {
+      "reference": "Her voice trembled with emotion.",
+      "candidate": "Her speech quivered with feeling.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9231427311897278
+    },
+    {
+      "reference": "A profound melancholy settled upon him.",
+      "candidate": "A deep sadness descended on him.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9542112946510315
+    },
+    {
+      "reference": "He looked with contempt at the crowd.",
+      "candidate": "He gazed with scorn upon the multitude.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9523816704750061
+    },
+    {
+      "reference": "Her smile was faint and sorrowful.",
+      "candidate": "Her grin was weak and mournful.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9690603017807007
+    },
+    {
+      "reference": "He felt a sudden pang of jealousy.",
+      "candidate": "He experienced an abrupt stab of envy.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9498240947723389
+    },
+    {
+      "reference": "The darkness seemed to swallow everything.",
+      "candidate": "The blackness appeared to devour all.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9098288416862488
+    },
+    {
+      "reference": "His hands shook with nervous excitement.",
+      "candidate": "His palms trembled with anxious agitation.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9076359272003174
+    },
+    {
+      "reference": "She spoke with gentle persuasion.",
+      "candidate": "She talked with mild coaxing.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8347097039222717
+    },
+    {
+      "reference": "He was tormented by dreadful thoughts.",
+      "candidate": "He was tortured by horrible ideas.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.912365734577179
+    },
+    {
+      "reference": "Her face showed pure astonishment.",
+      "candidate": "Her visage displayed utter amazement.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9031890034675598
+    },
+    {
+      "reference": "He felt an overwhelming sense of shame.",
+      "candidate": "He experienced a crushing feeling of disgrace.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9357374906539917
+    },
+    {
+      "reference": "The air was heavy with anticipation.",
+      "candidate": "The atmosphere was thick with expectation.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9605876207351685
+    },
+    {
+      "reference": "His laughter was harsh and mocking.",
+      "candidate": "His chuckle was rough and derisive.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9392374753952026
+    },
+    {
+      "reference": "She moved with graceful elegance.",
+      "candidate": "She walked with poised refinement.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9323511719703674
+    },
+    {
+      "reference": "He was consumed by burning ambition.",
+      "candidate": "He was devoured by fiery aspiration.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.822994589805603
+    },
+    {
+      "reference": "Her words were sharp and cutting.",
+      "candidate": "Her remarks were pointed and hurtful.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8744786381721497
+    },
+    {
+      "reference": "He felt a strange premonition.",
+      "candidate": "He experienced an odd foreboding.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9312971830368042
+    },
+    {
+      "reference": "The sun cast long shadows.",
+      "candidate": "The sunlight threw extended silhouettes.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8722019195556641
+    },
+    {
+      "reference": "His voice was full of tender affection.",
+      "candidate": "His speech was filled with gentle fondness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.932436466217041
+    },
+    {
+      "reference": "She looked at him with adoring eyes.",
+      "candidate": "She gazed upon him with worshipful sight.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8483880162239075
+    },
+    {
+      "reference": "He was seized by violent rage.",
+      "candidate": "He was gripped by fierce anger.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9505926370620728
+    },
+    {
+      "reference": "The memory brought bitter regret.",
+      "candidate": "The recollection caused sour remorse.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9169008135795593
+    },
+    {
+      "reference": "Her touch was soft and comforting.",
+      "candidate": "Her contact was gentle and soothing.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9465935826301575
+    },
+    {
+      "reference": "He walked with slow deliberation.",
+      "candidate": "He stepped with measured carefulness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8624966740608215
+    },
+    {
+      "reference": "The house stood in majestic solitude.",
+      "candidate": "The building rose in grand isolation.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9169901013374329
+    },
+    {
+      "reference": "His mind was clouded by doubt.",
+      "candidate": "His thoughts were obscured by uncertainty.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9275816082954407
+    },
+    {
+      "reference": "She answered with quiet confidence.",
+      "candidate": "She responded with calm assurance.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9268556237220764
+    },
+    {
+      "reference": "He felt a deep sense of isolation.",
+      "candidate": "He experienced a profound feeling of loneliness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9497910141944885
+    },
+    {
+      "reference": "The night was cold and starless.",
+      "candidate": "The evening was chill and moonless.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8684251308441162
+    },
+    {
+      "reference": "His words carried hidden meaning.",
+      "candidate": "His speech contained concealed significance.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9343404173851013
+    },
+    {
+      "reference": "She moved with quick determination.",
+      "candidate": "She acted with swift resolution.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9055526852607727
+    },
+    {
+      "reference": "He was lost in profound contemplation.",
+      "candidate": "He was immersed in deep meditation.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9164693355560303
+    },
+    {
+      "reference": "The sound echoed through the empty halls.",
+      "candidate": "The noise reverberated through the vacant corridors.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9283320903778076
+    },
+    {
+      "reference": "Her beauty was ethereal and haunting.",
+      "candidate": "Her loveliness was delicate and memorable.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8337658047676086
+    },
+    {
+      "reference": "He spoke with passionate intensity.",
+      "candidate": "He talked with fervent earnestness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8949851393699646
+    },
+    {
+      "reference": "The river flowed with quiet majesty.",
+      "candidate": "The stream ran with silent grandeur.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9464995265007019
+    },
+    {
+      "reference": "His eyes burned with fierce determination.",
+      "candidate": "His gaze blazed with intense resolve.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9320167899131775
+    },
+    {
+      "reference": "She felt a sudden surge of hope.",
+      "candidate": "She experienced an abrupt rush of optimism.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9504804611206055
+    },
+    {
+      "reference": "The truth dawned on him slowly.",
+      "candidate": "The reality became clear to him gradually.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.909991979598999
+    },
+    {
+      "reference": "His manner was cold and distant.",
+      "candidate": "His demeanor was frigid and remote.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9552930593490601
+    },
+    {
+      "reference": "She whispered words of encouragement.",
+      "candidate": "She murmured phrases of support.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8979768753051758
+    },
+    {
+      "reference": "He was trapped in endless despair.",
+      "candidate": "He was caught in perpetual hopelessness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9187479019165039
+    },
+    {
+      "reference": "The city slept under the moon.",
+      "candidate": "The town rested beneath the lunar glow.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8877937197685242
+    },
+    {
+      "reference": "His heart was heavy with grief.",
+      "candidate": "His spirit was burdened with sorrow.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.91651451587677
+    },
+    {
+      "reference": "She looked with wonder at the stars.",
+      "candidate": "She gazed with amazement at the constellations.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9123263955116272
+    },
+    {
+      "reference": "He felt an inexplicable joy.",
+      "candidate": "He experienced an unexplainable happiness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9045603275299072
+    },
+    {
+      "reference": "The wind howled like a lost soul.",
+      "candidate": "The breeze moaned like a wandering spirit.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8995971083641052
+    },
+    {
+      "reference": "Her kindness knew no bounds.",
+      "candidate": "Her generosity had no limits.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9020965695381165
+    },
+    {
+      "reference": "He stood in silent admiration.",
+      "candidate": "He remained in quiet respect.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8848216533660889
+    },
+    {
+      "reference": "The moment was filled with tension.",
+      "candidate": "The instant was charged with strain.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.8684124946594238
+    },
+    {
+      "reference": "She approached with cautious steps.",
+      "candidate": "She came forward with careful strides.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.888637363910675
+    },
+    {
+      "reference": "His words were like sharp daggers.",
+      "candidate": "His remarks were like pointed blades.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.919101893901825
+    },
+    {
+      "reference": "The light faded into darkness.",
+      "candidate": "The illumination dimmed into blackness.",
+      "bleu_score": 0.0,
+      "bertscore_f1": 0.9175865054130554
+    }
+  ]
+}

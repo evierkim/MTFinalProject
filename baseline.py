@@ -41,7 +41,12 @@ class BaselineEvaluator:
                 for ref, cand, f1 in zip(references, candidates, bert_scores['f1'])
             ]
         }
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # FIX: Only create directory if output_path contains a directory
+        output_dir = os.path.dirname(output_path)
+        if output_dir:  # Only create directories if output_path has a directory component
+            os.makedirs(output_dir, exist_ok=True)
+            
         with open(output_path, 'w') as f:
             json.dump(results, f, indent=2)
         print(f"Baseline done!")
@@ -55,6 +60,6 @@ if __name__ == "__main__":
     evaluator = BaselineEvaluator()
     # test suite
     results = evaluator.evaluate_baselines(
-        test_suite_path='data/test_suite.csv',
-        output_path='results/baseline_results.json'
+        test_suite_path='test_suite.csv',
+        output_path='baseline_results.json'
     )
