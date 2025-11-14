@@ -3,7 +3,6 @@ import json
 from sacrebleu import corpus_bleu
 from bert_score import BERTScorer
 import numpy as np
-from tqdm import tqdm
 import os
 
 class BaselineEvaluator:
@@ -41,10 +40,9 @@ class BaselineEvaluator:
                 for ref, cand, f1 in zip(references, candidates, bert_scores['f1'])
             ]
         }
-        
-        # FIX: Only create directory if output_path contains a directory
+
         output_dir = os.path.dirname(output_path)
-        if output_dir:  # Only create directories if output_path has a directory component
+        if output_dir:
             os.makedirs(output_dir, exist_ok=True)
             
         with open(output_path, 'w') as f:
