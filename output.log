@@ -1,0 +1,84 @@
+2025-11-14 19:38:58.456229
+
+Device: cpu
+
+Loading wmt_mqm_large.tsv
+Loaded 5000 samples
+
+Score statistics:
+  Min: 0.000
+  Max: 1.000
+  Mean: 0.509
+  Std: 0.331
+  Unique: 337
+Split: Train=3500, Val=750, Test=750
+
+Loading multilingual BERT...
+training
+
+Epoch 1/25
+Loss: 0.0869
+Val Pearson: 0.7194, Spearman: 0.7247
+Pred std: 0.1527, range: [0.310, 0.893]
+
+Epoch 2/25
+Loss: 0.0562
+Val Pearson: 0.7456, Spearman: 0.7381
+Pred std: 0.2397, range: [0.149, 0.932]
+
+Epoch 3/25
+Loss: 0.0499
+Val Pearson: 0.7541, Spearman: 0.7463
+Pred std: 0.2646, range: [0.110, 0.929]
+
+Epoch 4/25
+Loss: 0.0480
+Val Pearson: 0.7704, Spearman: 0.7504
+Pred std: 0.2553, range: [0.143, 0.939]
+
+Epoch 5/25
+Loss: 0.0463
+Val Pearson: 0.7744, Spearman: 0.7540
+Pred std: 0.2602, range: [0.130, 0.930]
+
+Epoch 6/25
+Loss: 0.0455
+Val Pearson: 0.7785, Spearman: 0.7572
+Pred std: 0.2518, range: [0.145, 0.932]
+
+Epoch 7/25
+Loss: 0.0445
+Val Pearson: 0.7771, Spearman: 0.7582
+Pred std: 0.2785, range: [0.105, 0.923]
+
+Epoch 8/25
+Loss: 0.0437
+Val Pearson: 0.7818, Spearman: 0.7606
+Pred std: 0.2674, range: [0.116, 0.927]
+
+Epoch 9/25
+Loss: 0.0447
+Val Pearson: 0.7822, Spearman: 0.7622
+Pred std: 0.2641, range: [0.121, 0.919]
+
+Epoch 10/25
+Loss: 0.0428
+Val Pearson: 0.7835, Spearman: 0.7624
+Pred std: 0.2758, range: [0.106, 0.923]
+
+Epoch 11/25
+Loss: 0.0425
+Val Pearson: 0.7838, Spearman: 0.7637
+Pred std: 0.2823, range: [0.092, 0.916]
+
+Epoch 12/25
+Loss: 0.0424
+Val Pearson: 0.7862, Spearman: 0.7655
+Pred std: 0.2587, range: [0.109, 0.924]
+
+Epoch 13/25
+Loss: 0.0427
+Val Pearson: 0.7867, Spearman: 0.7644
+Pred std: 0.2688, range: [0.098, 0.924]
+
+Epoch 14/25
