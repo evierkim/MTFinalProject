@@ -16,7 +16,7 @@ Split: Train=3500, Val=750, Test=750
 Loading multilingual BERT...
 training
 
-Epoch 1/25
+Epoch 1/25 
 Loss: 0.0869
 Val Pearson: 0.7194, Spearman: 0.7247
 Pred std: 0.1527, range: [0.310, 0.893]
@@ -81,4 +81,73 @@ Loss: 0.0427
 Val Pearson: 0.7867, Spearman: 0.7644
 Pred std: 0.2688, range: [0.098, 0.924]
 
-Epoch 14/25
+Epoch 14/25Loss: 0.0415
+Val Pearson: 0.7881, Spearman: 0.7671
+Pred std: 0.2585, range: [0.106, 0.922]
+
+Epoch 15/25
+Loss: 0.0417
+Val Pearson: 0.7900, Spearman: 0.7675
+Pred std: 0.2792, range: [0.086, 0.920]
+
+Epoch 16/25
+Loss: 0.0413
+Val Pearson: 0.7911, Spearman: 0.7702
+Pred std: 0.2705, range: [0.094, 0.919]
+
+Epoch 17/25
+Loss: 0.0417
+Val Pearson: 0.7920, Spearman: 0.7713
+Pred std: 0.2692, range: [0.096, 0.916]
+
+Epoch 18/25
+Loss: 0.0409
+Val Pearson: 0.7905, Spearman: 0.7724
+Pred std: 0.2792, range: [0.082, 0.912]
+
+Epoch 19/25
+Loss: 0.0408
+Val Pearson: 0.7930, Spearman: 0.7717
+Pred std: 0.2712, range: [0.085, 0.915]
+
+Epoch 20/25
+Loss: 0.0406
+Val Pearson: 0.7931, Spearman: 0.7726
+Pred std: 0.2638, range: [0.092, 0.920]
+
+Epoch 21/25
+Loss: 0.0398
+Val Pearson: 0.7947, Spearman: 0.7731
+Pred std: 0.2741, range: [0.078, 0.916]
+
+Epoch 22/25
+Loss: 0.0398
+Val Pearson: 0.7943, Spearman: 0.7739
+Pred std: 0.2662, range: [0.083, 0.915]
+
+Epoch 23/25
+Loss: 0.0404
+Val Pearson: 0.7949, Spearman: 0.7733
+Pred std: 0.2761, range: [0.079, 0.922]
+
+Epoch 24/25
+Loss: 0.0397
+Val Pearson: 0.7947, Spearman: 0.7740
+Pred std: 0.2797, range: [0.073, 0.910]
+
+Epoch 25/25
+Loss: 0.0405
+Val Pearson: 0.7928, Spearman: 0.7746
+Pred std: 0.2842, range: [0.072, 0.909]
+
+Evaluation
+
+Test Pearson: 0.7867
+Test Spearman: 0.7669
+Pred std: 0.2805
+Pred range: [0.057, 0.905]
+
+BLEU Pearson: 0.0544
+Improvement: +1347.0%
+
+Saved to mqm_model.pth
